@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+<body>
+    <div id="fundo"></div>
+    <div id="container">
+        <header id="cabecalho">
+            <div id="texto">
+                <h1>Formulário</h1>
+                <p>Teste de Formulário feito por Gilberto Anschau</p>
+             </div>
+        </header>
+            <form id="formulario" action="">
+                <div class="grupo">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="e-mail">
+                    <label for="idade">Idade</label>
+                    <input type="number" name="idade" id="idade" placeholder="Idade">
+                    <label for="pergunta">Pergunta</label>
+                    <select name="pergunta" id="pergunta">
+                        <option disabled selected value="">Pergunta</option>
+                        <option value="pergunta1">Pergunta 1</option>
+                        <option value="pergunta1">Pergunta 2</option>
+                        <option value="pergunta1">Pergunta 3</option>
+                    </select>
+                    <div id="opcoes">
+                        <p>Sexo</p>
+                    <label for="">
+                        <input type="radio" name="masculino" class="radio">  Masculino
+                    </label>
+                    <label for="">
+                        <input type="radio" name="feminino" class="radio"> Feminio
+                    </label>
+                    <p>Quais seus interesses?</p>
+                    <label for="">
+                        <input type="checkbox" name="option1" class="checkbox"> Front-end
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="option1" class="checkbox"> Back-end
+                    </label>
+                    <label for="">
+                        <input type="checkbox" name="option1" class="checkbox"> Fullstack
+                    </label>
+                    </div>
+                    <p>Sugestões</p>
+                    <textarea name="sugestoes" id="suges" cols="30" rows="10" placeholder="Sugestões"></textarea>
+                    <button type="submit">Enviar</button>
+                </div>
+               
+            </form>
+     </div>
+   
+</body>
+</html>
